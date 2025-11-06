@@ -1,0 +1,53 @@
+.footer {
+  background: #f9f9f9;
+  padding: 32px 0 16px 0;
+  color: #888;
+  width: 100%;
+  font-size: 0.98rem;
+}
+
+.socialSection {
+  margin-left: 40px;
+  margin-bottom: 28px;
+}
+
+.socialLabel {
+  font-size: 0.95rem;
+  color: #7e7e7e;
+  letter-spacing: 1.2px;
+}
+
+.divider {
+  width: 44vw;
+  border: none;
+  border-top: 1px solid #e1e1e1;
+  margin: 10px 0 14px 0;
+}
+
+.icons {
+  margin: 0;
+  display: flex;
+  gap: 28px;
+}
+
+.icons a {
+  color: #888;
+  font-size: 1.24rem;
+  transition: color 0.2s;
+}
+
+.icons a:hover {
+  color: #b28b5b;
+}
+
+.bottomLine {
+  margin-top: 70px;
+  margin-left: 40px;
+  font-size: 0.91rem;
+  color: #888;
+  letter-spacing: 0.7px;
+  
+  @media (max-width: 768px) {
+    font-size: 0.5rem;
+  }
+}

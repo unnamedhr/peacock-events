@@ -1,0 +1,144 @@
+.inquire {
+    font-family: 'Montserrat', sans-serif;
+
+    .hero {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    .heroImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+    }
+
+
+    .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #b28b5b;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        color: #333;
+    }
+
+    .sections {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 32px;
+        margin-top: 40px;
+        padding: 0 24px;
+    }
+
+    .sections div {
+        background: #f7f3ec;
+        border-radius: 16px;
+        padding: 32px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .sections h2 {
+        color: #b28b5b;
+        margin-bottom: 1rem;
+    }
+
+    .inquireText {
+        font-family: 'Montserrat', sans-serif;
+        color: #9c9491;
+        margin: auto;
+        width: 80%;
+        text-align: justify;
+        line-height: 1.5rem;
+    }
+
+    .formSection {
+    width: 80%;
+    margin: 4rem auto;
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+
+      .inputGroup {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        label {
+          font-weight: 600;
+          margin-bottom: 0.5rem;
+          font-family: 'BodoniModa-Regular', serif;
+
+          span {
+            color: #ff5a5a;
+          }
+        }
+
+        input {
+          padding: 0.8rem 1rem;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          font-family: inherit;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .textAreaGroup {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+
+        span {
+          color: #ff5a5a;
+          font-size: 10px;
+          padding: 0 5px;
+        }
+      }
+
+      textarea {
+        min-height: 150px;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        resize: none;
+        font-family: inherit;
+        font-size: 1rem;
+      }
+    }
+
+    .submitBtn {
+      align-self: flex-start;
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 0.8rem 2rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: #333;
+      }
+    }
+  }
+}

@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'BodoniModa-Regular';
+  src: url('./assets/fonts/BodoniModa_18pt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BodoniModa-Medium';
+  src: url('./assets/fonts/BodoniModa_18pt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BodoniModa-Bold';
+  src: url('./assets/fonts/BodoniModa_18pt-Bold.ttf') format('truetype');
+}

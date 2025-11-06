@@ -1,0 +1,59 @@
+.about {
+    font-family: 'Montserrat', sans-serif;
+
+    .hero {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    .heroImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+    }
+
+
+    .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #b28b5b;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        color: #333;
+    }
+
+    .sections {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 32px;
+        margin-top: 40px;
+        padding: 0 24px;
+    }
+
+    .sections div {
+        background: #f7f3ec;
+        border-radius: 16px;
+        padding: 32px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .sections h2 {
+        color: #b28b5b;
+        margin-bottom: 1rem;
+    }
+
+    .aboutText {
+        font-family: 'Montserrat', sans-serif;
+        color: #9c9491;
+        margin: auto;
+        width: 80%;
+        text-align: justify;
+        line-height: 1.5rem;
+    }
+}
