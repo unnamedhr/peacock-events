@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.scss';
-import { FaInstagram, FaFacebookF, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaFacebookF } from 'react-icons/fa';
 
 const Footer = () => (
   <footer className={styles.footer}>
@@ -13,9 +13,6 @@ const Footer = () => (
         </a>
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
           <FaFacebookF />
-        </a>
-        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-          <FaYoutube />
         </a>
       </div>
     </div>
