@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b05915e8.css",
+    "main.js": "/static/js/main.b8e9af8c.js",
+    "static/js/453.a48434ad.chunk.js": "/static/js/453.a48434ad.chunk.js",
+    "static/media/US1.jpg": "/static/media/US1.2889737a7a95c9853740.jpg",
+    "static/media/FA1.jpg": "/static/media/FA1.19ac9b501c8eec4ac38a.jpg",
+    "static/media/SocialEvents.jpg": "/static/media/SocialEvents.8255610ca9d43723485e.jpg",
+    "static/media/FA2.jpg": "/static/media/FA2.843d6a63194665aebcc5.jpg",
+    "static/media/CharityEvent.jpg": "/static/media/CharityEvent.03fecb4dba00d5b04b54.jpg",
+    "static/media/CorporateEvent.jpg": "/static/media/CorporateEvent.ade742f9c03cbc456d6e.jpg",
+    "static/media/DestinationEvent.jpg": "/static/media/DestinationEvent.6bd487291be592508d7d.jpg",
+    "static/media/Table1.jpg": "/static/media/Table1.9059634b53b82e04c462.jpg",
+    "static/media/BodoniModa_18pt-Bold.ttf": "/static/media/BodoniModa_18pt-Bold.cf0edf32fd9e284106b8.ttf",
+    "static/media/BodoniModa_18pt-Regular.ttf": "/static/media/BodoniModa_18pt-Regular.9ec58d851ad7339fe668.ttf",
+    "static/media/logo.png": "/static/media/logo.18bf30120350bd20ba70.png",
+    "index.html": "/index.html",
+    "main.b05915e8.css.map": "/static/css/main.b05915e8.css.map",
+    "main.b8e9af8c.js.map": "/static/js/main.b8e9af8c.js.map",
+    "453.a48434ad.chunk.js.map": "/static/js/453.a48434ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b05915e8.css",
+    "static/js/main.b8e9af8c.js"
+  ]
+}
